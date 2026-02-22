@@ -151,6 +151,13 @@ section {
     border-bottom: 1px solid var(--clr-border);
 }
 
+@media (min-width: 992px) {
+  section {
+    padding: 6.5rem 0;
+  }
+}
+
+
 .kicker {
     font-size: 0.75–0.78rem;
     color: var(--clr-accent);
@@ -200,6 +207,12 @@ section {
     color: var(--clr-text-muted);
     line-height: 1.7;
     /* max-width: 480px; */
+}
+
+.hero-btns {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
 }
 
 span.cursive {
@@ -388,6 +401,12 @@ span.cursive {
     padding: 0;
 }
 
+.testimonial-details {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
 .avatar-circle {
     width: 36px;
     height: 36px;
@@ -443,9 +462,21 @@ span.cursive {
     color: var(--clr-text-muted);
 }
 
+#cta .d-flex{
+    margin-top: 2.5rem;
+    gap: 1.5rem;
+}
+
 .cta-content {
     max-width: 50%;
     margin: 0 auto;
+}
+
+.cta-btns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
 }
 
 /* ─── Footer ─── */
